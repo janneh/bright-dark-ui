@@ -2,9 +2,9 @@
 // Git
 // -------------------
 
-.status          { color: @text-color; }
-.status-added    { color: @text-color-success; } // green
-.status-ignored  { color: @text-color-subtle; }  // faded
-.status-modified { color: @text-color-warning; } // orange
-.status-removed  { color: @text-color-error; }   // red
-.status-renamed  { color: @text-color-info; }    // blue
+.header.status, .file.status                   { color: @text-color; }
+.header.status-added, .file.status-added       { color: @text-color-success; }
+.header.status-ignored, .file.status-ignored   { color: @text-color-subtle; }
+.header.status-modified, .file.status-modified { color: @text-color-warning; }
+.header.status-removed, .file.status-removed   { color: @text-color-error; }
+.header.status-renamed, .file.status-renamed   { color: @text-color-info; }
