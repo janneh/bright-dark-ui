@@ -4,7 +4,7 @@
 @text-color:           hsl(60, 3%, 66%);
 @text-color-subtle:    hsl(60, 3%, 50%);
 @text-color-highlight: hsl(60, 3%, 94%);
-@text-color-selected:  hsl(60, 3%, 100%);
+@text-color-selected:  hsl(60, 3%, 94%);
 
 @text-color-info:    hsl(219,  79%, 66%);
 @text-color-success: hsl(140,  88%, 62%);
@@ -16,10 +16,10 @@
 @base-border-color:     hsl(231, 17%, 16%);
 
 // Background colors
-@background-color-info:    darken(@text-color-info, 10%);
-@background-color-success: darken(@text-color-success, 10%);
-@background-color-warning: darken(@text-color-warning, 10%);
-@background-color-error:   darken(@text-color-error, 10%);
+@background-color-info:    fade(@text-color-info, 80%);
+@background-color-success: fade(@text-color-success, 80%);
+@background-color-warning: fade(@text-color-warning, 80%);
+@background-color-error:   fade(@text-color-error, 80%);
 
 @background-color-highlight: lighten(@base-background-color, 5%);
 @background-color-selected:  lighten(@base-background-color, 10%);
