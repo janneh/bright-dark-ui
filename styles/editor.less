@@ -8,17 +8,15 @@ atom-text-editor[mini] {
   border-radius: @component-border-radius;
   background-color: @input-background-color;
 
-  &.is-focused {
+  .is-focused {
     background-color: darken(@input-background-color, 5%);
-  }
 
-  &, // <-- Deprecated. The `&,` can be removed once the Shadow DOM can't be turned off in the settings.
-  &::shadow {
-    .placeholder-text {
-      color: @text-color-subtle;
-    }
     .selection .region {
       background-color: @background-color-selected;
     }
+  }
+
+  .placeholder-text {
+    color: @text-color-subtle;
   }
 }
