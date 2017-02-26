@@ -13,6 +13,6 @@ apm install bright-dark-ui
 
 ### Preview
 
-![Brigth Dark UI](/assets/bright-dark-ui.png?raw=true "Brigth Dark UI")
+![Brigth Dark UI](https://raw.githubusercontent.com/janneh/bright-dark-ui/master/assets/bright-dark-ui.png)
 
 hello <(o.o<)
